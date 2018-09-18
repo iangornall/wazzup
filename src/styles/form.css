@@ -1,0 +1,36 @@
+.wazzup-form {
+  display: flex;
+  flex-direction: column;
+  border: 0.1em solid black;
+  margin-bottom: 3em;
+}
+.wazzup-form-title {
+  margin: 1.5em auto 0;
+  font-size: 2em;
+}
+.wazzup-form-text, .wazzup-form-author {
+  background: black;
+  border: none;
+  color: white;
+  font-size: 1.5em;
+  margin: 1em;
+  padding: 0.5em;
+  outline: none;
+}
+.wazzup-form-text::placeholder, .wazzup-form-author::placeholder {
+  color: #EEE;
+}
+.wazzup-form-author {
+  margin: 1em;
+}
+.wazzup-form-submit {
+  margin: 0.5em 0 1.5em;
+  padding: 0.25em 0.5em;
+  font-size: 2.4rem;
+  background: white;
+  border: 0.3rem solid black;
+  color: red;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  align-self: center;
+}

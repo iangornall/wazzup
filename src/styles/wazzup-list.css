@@ -1,0 +1,12 @@
+.wazzup-list {
+  list-style: none;
+  padding: 0;
+}
+.wazzup-text {
+  text-align: left;
+  font-size: 2.4rem;
+}
+.wazzup-author {
+  text-align: right;
+  font-style: italic;
+}
